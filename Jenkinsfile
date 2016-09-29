@@ -7,7 +7,7 @@ node {
    	stage 'Build'
    		sh './myBuild.sh'
 	stage 'Change Request'
-		sh './Change_Request.sh'
+		sh './Change_request.sh'
    	stage 'Deploy'
    		sh './myDeployment.sh'
 	stage 'Run Tests'
